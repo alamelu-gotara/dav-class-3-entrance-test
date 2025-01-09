@@ -4,8 +4,8 @@ const isDev = process.env.NODE_ENV === 'development';
 
 const nextConfig = {
     output: isDev ? 'standalone' : 'export',
-    basePath: isDev ? '' : '/test-mate',
-    assetPrefix: isDev ? '' : '/test-mate',
+    basePath: isDev ? '' : '/dav-class-3-entrance-test',
+    assetPrefix: isDev ? '' : '/dav-class-3-entrance-test',
 };
 
 export default nextConfig;
