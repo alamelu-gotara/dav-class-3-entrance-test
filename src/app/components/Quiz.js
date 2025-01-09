@@ -185,9 +185,9 @@ export default function Quiz({ quizType, user, resetQuiz }) {
       />
       <button
         onClick={nextQuestion}
-        className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 mt-4"
+        className="bg-blue-500 text-white px-8 py-4 rounded-lg hover:bg-blue-600 mt-4 text-lg"
       >
-        {currentQuestionIndex === questions.length - 1 ? 'Finish' : 'Next'}
+        Next
       </button>
     </div>
   );

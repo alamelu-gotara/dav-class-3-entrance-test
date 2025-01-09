@@ -43,8 +43,8 @@ export const questions = {
         "Happy"
       ],
       rightItems: [
-        "Small",
-        "Sad"
+        "Sad",
+        "Small"
       ],
       correctMatches: {
         Big: "Small",
@@ -186,8 +186,8 @@ export const questions = {
         "A triangle"
       ],
       rightItems: [
-        "Four sides",
-        "Three sides"
+        "Three sides",
+        "Four sides"
       ],
       correctMatches: {
         "A square": "Four sides",
